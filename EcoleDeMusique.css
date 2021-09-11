@@ -1,0 +1,193 @@
+@font-face{
+    font-family:'PolicePerso';
+    src: url('PolicePerso.otf');
+}
+html
+{
+ margin-bottom: 0%;   
+}
+body
+{
+    background: url(Img/guitare.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:'PolicePerso';
+    background-color: #6d4325;
+}        
+header
+{
+
+
+    border-style: groove;
+    border-color: bisque;
+    border-radius: 10%;
+    padding: 0 5% 0 5%;
+    background-image: url(Img/bois.jpg);
+    display:flex;
+    justify-content:space-between;
+    margin-top: 56px;
+    margin-left: -8px;
+    margin-right: -8px;
+    opacity: 0.8; 
+}
+div
+{
+    background-color: #6d4325;
+    margin: -1% -1% 20% -1%;
+}
+.flotte
+{
+    float:left;
+    border-style: groove;
+    border-radius: 0px 362px 13px 0px;
+    margin: -27px 0px 1px -8px;
+}    
+h1
+{
+    font-size: 300%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline orange;
+    color: bisque;  
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+}    
+ul
+{   
+    display:flex;
+    flex-direction:column;
+    font-family:'PolicePerso';
+    font-size: 25px;
+    color: rgb(34, 128, 206);
+    text-decoration: underline orange;   
+}
+h2
+{
+    color: #130c07;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    text-decoration:overline bisque;
+    font-family: 'PolicePerso';
+    font-size: 280%;
+    text-align: center;
+}
+h3
+{
+    
+    color: bisque;
+    border: groove #f2f5efa8;
+    margin-left: -8px;
+    margin-right: -7px;
+    text-align: center;
+    background: url(Img/bois.jpg);
+    background-repeat: repeat;
+    font-size: 28px;
+}
+
+.second-and-third-teacher
+{
+    clear:left;
+    
+}
+h4
+{
+    border-style: groove;
+    border-radius: 500px 500px 0px 0px;
+    background: url(Img/Notes.jpg);
+    background-repeat: round;
+    background-size: 79px;
+    background-position: 34px -123px;
+    font-size: 188%;
+    text-align: center;
+    margin: -5% 35% 0% 35%;
+}
+ol
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+a:visited
+{
+    color: bisque;
+    text-decoration: underline orange;
+}
+a:hover
+{
+    text-decoration: underline orange;
+    color: rgb(255, 255, 255);
+}
+.Intro
+{
+    font-family: 'PolicePerso';
+    font-size: 26px;
+    font-style: oblique;
+    text-align: justify;
+    margin-right: 700px;
+    margin-bottom: 340px;
+    color: blanchedalmond;
+}
+.paragraph
+{
+    font-family: 'PolicePerso';
+    font-size: 25px;
+    text-align: center;
+    margin: 80px 18px 0px 0px;
+}
+.mail
+{
+    border-style: groove;
+    border-radius: 20px;
+    margin: 216px 460px -10px 263px;
+    background: palegreen;
+    height: 110px;
+}
+.face
+{
+    background: skyblue;
+    padding: 10px;
+    height: 88px;
+    width: 80px;
+    margin: 0px 0px -10px 485px;
+    border-style: groove;
+    border-color: bisque;
+    border-radius: 20px;
+}
+.portable
+{
+    border-style: groove;
+    border-radius: 30px;
+    border-color: bisque;
+    background: salmon;
+    margin-left: 20px;
+}
+footer
+{
+    background: url(Img/batterie.jpg);
+    background-position: 18px -196px;
+    background-size: 33%;
+    border-style: groove;
+    border-radius: 450px 60px;
+    font-family: 'PolicePerso';
+    clear: both;
+    justify-content: center;
+    font-size: 30px;
+}
+
+@media all and (max-width: 1024px)
+{
+  header
+  {
+      display: flex;
+      flex-direction: column;
+  width: auto;
+
+  }
+  
+
+
+
+}
